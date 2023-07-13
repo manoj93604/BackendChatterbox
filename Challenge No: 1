@@ -1,0 +1,20 @@
+1.Question:
+
+You have been tasked with creating a backend system for a user registration portal using React. The system should allow users to register by providing their name, email address, and password. Implement the backend functionality for this user registration process.
+
+Requirements:
+
+	1.	Create a React component called RegistrationForm that includes input fields for name, email, and password.
+	2.	Implement form validation to ensure that all fields are filled out before allowing the user to submit the form.
+	3.	Upon successful form submission, send an HTTP POST request to the backend API endpoint /api/register with the user’s registration data (name, email, password).
+	4.	Handle the API response in the React component and display an appropriate message to the user, such as “Registration successful” or “Registration failed. Please try again.”
+
+Additional Instructions:
+
+	•	You can use any popular HTTP library for making API requests (e.g., Axios, Fetch).
+	•	Feel free to use any form validation library or implement your own validation logic.
+	•	Ensure the form is responsive and displays suitable error messages if validation fails.
+
+Your task is to implement the backend functionality of the user registration process using React. Provide your code solution along with a brief explanation of the approach you took.
+
+Note: This question focuses on the frontend (React) part, assuming that the backend API is already implemented.
